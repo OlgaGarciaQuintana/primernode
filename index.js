@@ -7,6 +7,8 @@ console.log(sumar(3, 2));
 let sumar2 = (num1, num2) => {return num1 + num2}
 console.log(sumar2(3, 2));
 
+//Ejemplo 1:
+
 let a = [4, 21, 33, 12, 9, 54];
 console.log(a.map(function(num) {
     return num * 2; 
@@ -14,6 +16,8 @@ console.log(a.map(function(num) {
 
 //reescribir console log poniendo la función en sintaxis flecha
 console.log(a.map(num=>num * 2));
+
+//Ejemplo 2:
 
 let d = [4, 21, 33, 12, 9, 54];
 console.log(d.filter(function(num) {
